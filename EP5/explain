@@ -1,0 +1,6 @@
+디버그 모드로 셸 실행하기
+
+bash -x script-name
+OR
+
+bash -xv script-name
