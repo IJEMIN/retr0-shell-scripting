@@ -11,6 +11,9 @@ echo name # name 이라고 출력
 echo $name # Jemin 이라고 출력
 echo ${name} # Jemin 이라고 출력. $name은 ${name}를 간단하게 표현한것
 
+# 펼칠 변수의 이름 경계가 모호한 경우, 중괄호를 통해 명확하게 변수의 경계를 표시할 수 있다.
+echo my${name}isjemin
+
 # 문자열을 조합하여 출력
 # 큰 따옴표를 사용하는 경우 변수를 펼칠수 있다.
 echo "제 이름은 $name 입니다. 나이는 ${age} 이에요"
